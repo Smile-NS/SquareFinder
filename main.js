@@ -166,6 +166,7 @@ window.onload = () => {
         }
       });
 
+      // 赤いピクセルが領域内を占める割合
       let area = width ** 2;
       let ratio = count / area;
       return (ratio >= minRatio);
